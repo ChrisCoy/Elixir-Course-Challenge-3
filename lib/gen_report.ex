@@ -4,12 +4,6 @@ defmodule GenReport do
   end
 
   def build(filename) do
-    # rows[0]
-    ####### STUPID WAY #######
-    # rows =
-
-    IO.inspect(filename)
-
     rows = GenReport.Parser.parse_file(filename)
 
     all_hours =
