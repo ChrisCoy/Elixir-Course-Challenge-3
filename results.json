@@ -1,0 +1,29 @@
+{
+  "invalid": [],
+  "failed": [
+    {
+      "line": 7,
+      "module": "Elixir.GenReport.ParserTest",
+      "file": "/home/chris/elixir/Elixir-Course-Challenge-3/test/parser_test.exs",
+      "test": "test parse_file/1 parses the file",
+      "describe": "parse_file/1"
+    },
+    {
+      "line": 16,
+      "module": "Elixir.GenReportTest",
+      "file": "/home/chris/elixir/Elixir-Course-Challenge-3/test/gen_report_test.exs",
+      "test": "test build/1 When no filename was given, returns an error",
+      "describe": "build/1"
+    },
+    {
+      "line": 10,
+      "module": "Elixir.GenReportTest",
+      "file": "/home/chris/elixir/Elixir-Course-Challenge-3/test/gen_report_test.exs",
+      "test": "test build/1 When passing file name return a report",
+      "describe": "build/1"
+    }
+  ],
+  "excluded": [],
+  "passed": [],
+  "skiped": []
+}
